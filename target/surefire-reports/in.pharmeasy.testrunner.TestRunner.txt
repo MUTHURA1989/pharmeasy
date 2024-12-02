@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: in.pharmeasy.testrunner.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 43.33 s - in in.pharmeasy.testrunner.TestRunner
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 91.142 s - in in.pharmeasy.testrunner.TestRunner

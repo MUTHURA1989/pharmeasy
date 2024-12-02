@@ -9,7 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features="C:\\Users\\MUTHURA\\eclipse-workspace\\CGT\\Pharmeasy\\src\\test\\resources\\pharmeasy.feature",
 
 glue="in.pharmeasy.step",
-//tags= {"@productname"},
+//tags= "@productname",
 
 plugin= {"html:target","json:target/report.json"}
 

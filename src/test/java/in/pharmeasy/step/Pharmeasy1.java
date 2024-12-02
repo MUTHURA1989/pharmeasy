@@ -229,7 +229,7 @@ catch(Exception e)
 	@When("the user validate the product")
 	public void the_user_validate_the_product() {
 		try {
-		WebElement table=driver.findElement(By.xpath("//table[@class='ProductPriceTable_table__rmy6R']"));
+		//WebElement table=driver.findElement(By.xpath("//table[@class='ProductPriceTable_table__rmy6R']"));
 		List<WebElement> tr=driver.findElements(By.tagName("tr"));
 		for(int i=0;i<tr.size();i++) {
 			WebElement head=tr.get(i);

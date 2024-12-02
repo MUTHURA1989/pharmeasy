@@ -2,7 +2,12 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "Pharmeasy",
   "description": "",
-  "keyword": "Feature"
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@All"
+    }
+  ]
 });
 formatter.background({
   "name": "",
@@ -25,7 +30,15 @@ formatter.result({
 formatter.scenario({
   "name": "Medicine Functionality",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@All"
+    },
+    {
+      "name": "@medicine"
+    }
+  ]
 });
 formatter.step({
   "name": "the user click the medicine",
@@ -108,7 +121,15 @@ formatter.result({
 formatter.scenario({
   "name": "LabTest functionality",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@All"
+    },
+    {
+      "name": "@labtest"
+    }
+  ]
 });
 formatter.step({
   "name": "the user click the Lab Test",
@@ -181,7 +202,15 @@ formatter.result({
 formatter.scenario({
   "name": "user validate the product and price under healthcare",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@All"
+    },
+    {
+      "name": "@productname"
+    }
+  ]
 });
 formatter.step({
   "name": "the user click the healthcare dropdown",
@@ -234,7 +263,15 @@ formatter.result({
 formatter.scenario({
   "name": "healthcare functionality",
   "description": "",
-  "keyword": "Scenario"
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@All"
+    },
+    {
+      "name": "@healthcare"
+    }
+  ]
 });
 formatter.step({
   "name": "the user click the healthcare dropdown",
